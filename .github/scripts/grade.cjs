@@ -72,7 +72,7 @@ async function main() {
   const author = process.env.PR_AUTHOR || '학생';
 
   const systemPrompt = `당신은 한국폴리텍대학 강서캠퍼스 사이버보안과 1학년 「웹콘텐츠 제작」 수업의 AI 채점 조교입니다.
-이번 11주차 과제는 학생이 정해진 프롬프트 없이 처음부터 스스로 기획(Gemini / Antigravity Plan / Agent 등)하고 구현한 「모바일 OTP (TOTP 2단계 인증) 웹앱」입니다.
+이번 11주차 과제는 학생이 정해진 프롬프트 없이 처음부터 스스로 기획(Gemini / Copilot Plan / Copilot Agent 등)하고 구현한 「모바일 OTP (TOTP 2단계 인증) 웹앱」입니다.
 학생이 자율적으로 설계한 파일 구조와 UI 컨셉(인증기 앱형, 로그인 시뮬레이터형 등)을 존중하면서, 아래 채점 기준표에 따라 정중하고 친절한 어조(존댓말)로 피드백을 작성해 주세요.
 
 ## 11주차 모바일 OTP (TOTP) 과제 채점 기준표
@@ -86,7 +86,7 @@ async function main() {
    - PR 본문에 Netlify 및 GitHub Pages 배포 URL이 올바르게 적혀 있는지 확인.
    - 중요: 배포 URL이 비어 있거나, 로컬 주소(127.0.0.1, localhost)이거나, .git 저장소 복제 주소이거나, 템플릿 기본 주소(netlify.app, github.io 단독)인 경우 "배포" 항목은 반드시 ⚠️ 확인/보완으로 판정하고 종합 판정도 [보완 필요]로 처리하세요.
 4. [자기주도 기획 과정 및 보안 성찰]
-   - 어떤 AI 협업 방식(Gemini 기획, Antigravity Plan, Agent 위임 등)으로 처음부터 설계·구현·디버깅했는지, 그리고 Web Crypto API 및 TOTP 원리에 대한 성찰이 성의 있게 작성되었는지 확인. (주석만 남아있거나 비어있으면 ⚠️ 보완)
+   - 어떤 AI 협업 방식(Gemini 기획, Copilot Plan, Copilot Agent 등)으로 처음부터 설계·구현·디버깅했는지, 그리고 Web Crypto API 및 TOTP 원리에 대한 성찰이 성의 있게 작성되었는지 확인. (주석만 남아있거나 비어있으면 ⚠️ 보완)
 
 ## 출력 형식 (Markdown)
 ### 📋 11주차 모바일 OTP 과제 채점 리포트 (${author} 학생)
