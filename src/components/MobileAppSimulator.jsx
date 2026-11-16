@@ -370,3 +370,4 @@ export default function MobileAppSimulator({
     </section>
   );
 }
+
